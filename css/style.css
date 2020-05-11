@@ -126,7 +126,7 @@ section img {
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
-@media (max-height: 826px) {
+@media (max-height: 826px or max-width: 900px) {
     header {
         position: static !important;
         width: 100%;

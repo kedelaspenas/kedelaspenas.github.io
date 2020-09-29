@@ -1,11 +1,8 @@
-/*
-    DEMO STYLE
-*/
 @import url('https://fonts.googleapis.com/css?family=Oswald|Roboto+Condensed:300');
 
 body {
     font-family: 'Roboto Condensed', sans-serif;
-    background: #fafafa;
+    background: #FFF8F0;
     height: 100%;
     width: 100%;
     min-height: 100vh;
@@ -14,25 +11,23 @@ body {
     top: 0;
     right: 0;
     font-size: 20px;
+    padding-top: 80px;
 }
 
-a, a:hover, a:focus {
-    color: inherit;
-    text-decoration: none;
-    transition: all 0.3s;
+.maroon {
+    color: #7b1113;
 }
 
-h2 {
-    margin: 50px 0;
+.nav-item {
+    margin: 0 25px;
 }
 
-img {
-    margin: auto;
-    display: block;
+a {
+    color: black;
 }
 
-h2:first-child {
-    margin-top: 0;
+a:hover {
+    color: #7b1113;
 }
 
 .vertical-align {
@@ -40,125 +35,47 @@ h2:first-child {
     align-items: center;
 }
 
+#pills-tabContent {
+    padding: 30px 0px;
+    border-top: 1px dotted #c3c3c3;
+}
+
 .row {
     padding: 5px 0;
-}
-
-header {
-    color: #002147;
-    padding: 20px;
-    position: fixed !important;
-    top: 0;
-    width: 400px;
-}
-
-header h1 {
-    font-size: 2em;
-    padding-top: 0.2em;
-    font-family: 'Oswald', sans-serif;
-}
-
-header img { 
-    margin: auto;
-    height: 50px;
-}
-
-header img#profile {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-header > div {
-    height: 100vh;    
-}
-
-header div.logos {
-    border-top: 1px solid gray;
-    padding-top: 10px;
-    width: 100%;
-    position: absolute;
-    bottom: 60px;
-    left: 0;
-}
-
-header div.logos img {
-    display: inline;
-}
-
-div#right {
-    margin-left: 400px;
-    width: calc(100% - 400px);
-}
-
-section, header {
-    padding: 40px;
-}
-
-section {
-    background-color: #002147;
-    color: #cdd7e4;
-}
-
-section > div, header > div {
-    width: 100%;
-    position: relative;
-}
-
-section h2 {
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
 }
 
 section img {
     width: 70%;
 }
 
-.social {
-    padding: 10px 0;
+section img.profile {
+    padding: 10px 40px;
 }
 
-.social:hover {
-    color: #002147;
-    text-decoration: underline;
+h1 {
+    padding-top: 15px;
 }
-/* ---------------------------------------------------
-    MEDIAQUERIES
------------------------------------------------------ */
-@media (max-height: 826px), (max-width: 900px) {
-    header {
-        position: static !important;
-        width: 100%;
-    }
 
-    header > div {
-        height: auto;
-    }
-
-    header img#profile {
-        width: 200px;
-        float: left;
-        padding: 10px;
-        margin-right: 10px;
-    }
-
-    header div.logos {
-        position: static;
-    }
-
-    div#right {
-        margin-left: 0;
-        width: 100%;
-    }
-
-    section img {
-        display: none;
-    }
+h2 {
+    padding: 30px 0;
+    color: #7b1113;
 }
-@media (max-width: 900px) {
 
-    section img {
-        width: 100%;
-    }
+.navbar {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.width-auto {
+    width: auto;
+    display: inline;
+}
+
+a.social h1 {
+    display: inline;
+}
+
+footer {
+    border-top: 1px dotted #c3c3c3;
+    padding: 10px 0 50px 0;
 }

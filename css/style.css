@@ -18,6 +18,9 @@ body {
     color: #7b1113;
 }
 
+.maroon:hover {
+    color: black;
+
 .nav-item {
     margin: 0 25px;
 }

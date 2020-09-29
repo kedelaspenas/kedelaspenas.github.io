@@ -18,6 +18,10 @@ body {
     color: #7b1113;
 }
 
+a:hover .maroon {
+    color: black;  
+}
+
 .maroon:hover {
     color: black;
 }

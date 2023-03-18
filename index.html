@@ -329,165 +329,239 @@
         </div>
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
 
-          <div class="col-lg-4 col-md-12 portfolio-item filter-research filter-poster">
-            <div class="portfolio-wrap">
-              <img src="assets/img/MOVI_poster.png" class="img-fluid" alt="">
-              <b>Profiling DNA Damage in 3D Histology Samples</b><br/>
-              <small>
-                Kristofer E. delas Penas, Ralf Haeusler, Sally Feng, Valentin Magidson, Mariia Dmitrieva, David Wink, Stephen Lockett, Robert Kinders, Jens Rittscher
-              </small>
-              <small class="smaller">Presented at MOVI workshop at MICCAI 2022</small>
-              <div class="portfolio-item-description"><small></small></div>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+          <div class="col-lg-6 col-md-12 portfolio-item filter-research filter-poster">
+            <div class="row portfolio-wrap">
+              <div class="col-sm-4">
+                <img src="assets/img/MOVI_poster.png" class="img-fluid" alt="" data-bs-toggle="modal" data-bs-target="#img_modal" data-bs-title="Profiling DNA Damage in 3D Histology Samples">
+              </div>
+              <div class="col-sm-8">
+                <b>Profiling DNA Damage in 3D Histology Samples</b><br/>
+                <small>
+                  Kristofer E. delas Penas, Ralf Haeusler, Sally Feng, Valentin Magidson, Mariia Dmitrieva, David Wink, Stephen Lockett, Robert Kinders, Jens Rittscher
+                </small>
+                <small class="smaller">Presented at MOVI workshop at MICCAI 2022</small>
+                <div class="portfolio-item-description"><small>In this work, we developed an approach based on GLCM and VAE-GAN to capture similarities and subtle differences in  cells positive for γH2AX, a common marker for DNA damage. We also investigated a possible quantification of immune and DNA damage response interplay by enumerating CD8+ and γH2AX+ on different scales to differentiate between control and treated tissue samples.</small></div>
+                <div class="portfolio-links">
+                  <a href="https://link.springer.com/content/pdf/10.1007/978-3-031-16961-8_9.pdf"><i class="bx bx-link"></i></a>
+                </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-12 portfolio-item filter-research">
-            <div class="portfolio-wrap">
-              <img src="assets/img/vae-gan-tcc-manifold.png" class="img-fluid" alt="">
-              <b>Annotation-free learning of a spatio-temporal manifold of the cell life cycle</b><br/>
-              <small>Kristofer delas Peñas, Mariia Dmitrieva, Dominic Waithe, Jens Rittscher</small>
-              <small class="smaller">Manuscript submitted</small>
-              <div class="portfolio-item-description"><small></small></div>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+          <div class="col-lg-6 col-md-12 portfolio-item filter-research">
+            <div class="row ">
+              <div class="col-sm-4">
+                <img src="assets/img/vae-gan-tcc-manifold.png" class="img-fluid" alt="" data-bs-toggle="modal" data-bs-target="#img_modal" data-bs-title="Annotation-free learning of a spatio-temporal manifold of the cell life cycle">
+              </div>
+              <div class="col-sm-8 portfolio-wrap">
+                <b>Annotation-free learning of a spatio-temporal manifold of the cell life cycle</b><br/>
+                <small>Kristofer delas Peñas, Mariia Dmitrieva, Dominic Waithe, Jens Rittscher</small>
+                <small class="smaller">Manuscript submitted</small>
+                <div class="portfolio-item-description"><small>
+                  In this work, we described an approach based on representation learning to construct a manifold of the cell life cycle. Our model uses unlabelled microscopy images derived from a single fluorescence channel and utilizes both the spatial and temporal information in these images to extract information relevant to cell cycle analysis such as staging and estimation of cycle duration.
+                </small></div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-12 portfolio-item filter-research">
-            <div class="portfolio-wrap">
-              <img src="assets/img/delas6-p6-delas-large.gif" class="img-fluid" alt="">
-              <b>Automated Detection of Helminth Eggs in Stool Samples Using Convolutional Neural Networks</b><br/>
-              <small>Kristofer delas Peñas, Elena Villacorte, Pilarita Rivera, Prospero Naval</small>
-              <small class="smaller">2020 IEEE Region 10 Conference (TENCON), Osaka, Japan</small>
-              <div class="portfolio-item-description"><small></small></div>
-              <div class="portfolio-links">
-                <a href="https://ieeexplore.ieee.org/document/9293746/" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+          <div class="col-lg-6 col-md-12 portfolio-item filter-research">
+            <div class="row">
+              <div class="col-sm-4">
+              <img src="assets/img/delas6-p6-delas-large.gif" class="img-fluid" alt="" data-bs-toggle="modal" data-bs-target="#img_modal" data-bs-title="Automated Detection of Helminth Eggs in Stool Samples Using Convolutional Neural Networks">
+            </div>
+
+              <div class="col-sm-8 portfolio-wrap">
+                <b>Automated Detection of Helminth Eggs in Stool Samples Using Convolutional Neural Networks</b><br/>
+                <small>Kristofer delas Peñas, Elena Villacorte, Pilarita Rivera, Prospero Naval</small>
+                <small class="smaller">2020 IEEE Region 10 Conference (TENCON), Osaka, Japan</small>
+                <div class="portfolio-item-description"><small>
+                  We utilized YOLO, a convolutional neural network framework, in the detection of helminth eggs in stool samples. We demonstrated that the approach works well despite the variance in imaging conditions in the collected dataset, achieving high sensitivity in the detection of helminth eggs and high accuracy in the identification of egg species.
+                </small></div>
+                <div class="portfolio-links">
+                  <a href="https://ieeexplore.ieee.org/document/9293746/"><i class="bx bx-link"></i></a>
+                </div>
               </div>
             </div>
           </div>
           
-          <div class="col-lg-4 col-md-12 portfolio-item filter-research">
-            <div class="portfolio-wrap">
-              <img src="assets/img/pined5-p6-pined-small.gif" class="img-fluid" alt="">
-              <b>Automated Stitching of Coral Reef Images and Extraction of Features for Damselfish Shoaling Behavior Analysis</b><br/>
-              <small>Riza Rae Pineda, Kristofer delas Peñas, Dana Manogan</small>
-              <small class="smaller">2020 IEEE Region 10 Conference (TENCON), Osaka, Japan</small>
-              <div class="portfolio-item-description"><small></small></div>
-              <div class="portfolio-links">
-                <a href="https://ieeexplore.ieee.org/document/9293824" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+          <div class="col-lg-6 col-md-12 portfolio-item filter-research">
+            <div class="row">
+              <div class="col-sm-4">
+                <img src="assets/img/pined5-p6-pined-small.gif" class="img-fluid" alt="" data-bs-toggle="modal" data-bs-target="#img_modal" data-bs-title="Automated Stitching of Coral Reef Images and Extraction of Features for Damselfish Shoaling Behavior Analysis">
+              </div>
+              <div class="col-sm-8 portfolio-wrap">
+                <b>Automated Stitching of Coral Reef Images and Extraction of Features for Damselfish Shoaling Behavior Analysis</b><br/>
+                <small>Riza Rae Pineda, Kristofer delas Peñas, Dana Manogan</small>
+                <small class="smaller">2020 IEEE Region 10 Conference (TENCON), Osaka, Japan</small>
+                <div class="portfolio-item-description"><small>
+                  Motion artifacts and changes in the natural environment are challenges in analyzing visual marine data. To effectively analyze shoaling behavior in damselfish research despite artifacts, we propose a pre-processing system that utilizes color correction and image stitching techniques and extracts behavior features for manual analysis.
+                </small></div>
+                <div class="portfolio-links">
+                  <a href="https://ieeexplore.ieee.org/document/9293824"><i class="bx bx-link"></i></a>
+                </div>
               </div>
             </div>
           </div>
           
-          <div class="col-lg-4 col-md-12 portfolio-item filter-research filter-poster">
-            <div class="portfolio-wrap">
-              <!-- <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt=""> -->
-              <img src="assets/img/EXTRACTING AXIAL DEPTH AND TRAJECTORY TREND USING ASTIGMATISM, GAUSSIAN FITTING, AND CNNS FOR PROTEIN TRACKING.png" class="img-fluid">
-              <b>Extracting Axial Depth and Trajectory Trend Using Astigmatism, Gaussian Fitting, and CNNs for Protein Tracking </b><br/>
-              <small>Kristofer Delas Penas, Mariia Dmitrieva, Joël Lefebvre, Helen Zenner, Edward Allgeyer, Martin Booth, Daniel St. Johnston, Jens Rittscher</small>
-              <small class="smaller">2020 IEEE 17th International Symposium on Biomedical Imaging (ISBI), Coralville, IA, USA</small>
-              <div class="portfolio-item-description"><small>We presented and contrasted two approaches (gaussian fitting with CNN-based denoising and CNN axial trajectory trend classification) extending the analysis of protein movement to three dimensions by employing astigmatism.</small></div>
-              <div class="portfolio-links">
-                <a href="https://ieeexplore.ieee.org/document/9098364/" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-link"></i></a>
+          <div class="col-lg-6 col-md-12 portfolio-item filter-research filter-poster">
+            <div class="row">
+              <div class="col-sm-4">
+                <img src="assets/img/EXTRACTING AXIAL DEPTH AND TRAJECTORY TREND USING ASTIGMATISM, GAUSSIAN FITTING, AND CNNS FOR PROTEIN TRACKING.png" class="img-fluid" data-bs-toggle="modal" data-bs-target="#img_modal" data-bs-title="Extracting Axial Depth and Trajectory Trend Using Astigmatism, Gaussian Fitting, and CNNs for Protein Tracking">
+              </div>
+              <div class="col-sm-8 portfolio-wrap">
+                <b>Extracting Axial Depth and Trajectory Trend Using Astigmatism, Gaussian Fitting, and CNNs for Protein Tracking </b><br/>
+                <small>Kristofer Delas Penas, Mariia Dmitrieva, Joël Lefebvre, Helen Zenner, Edward Allgeyer, Martin Booth, Daniel St. Johnston, Jens Rittscher</small>
+                <small class="smaller">2020 IEEE 17th International Symposium on Biomedical Imaging (ISBI), Coralville, IA, USA</small>
+                <div class="portfolio-item-description"><small>We presented and contrasted two approaches (gaussian fitting with CNN-based denoising and CNN axial trajectory trend classification) extending the analysis of protein movement to three dimensions by employing astigmatism.</small></div>
+                <div class="portfolio-links">
+                  <a href="https://ieeexplore.ieee.org/document/9098364/"><i class="bx bx-link"></i></a>
+                </div>
               </div>
             </div>
           </div>
           
-          <div class="col-lg-4 col-md-12 portfolio-item filter-research">
-            <div class="portfolio-wrap">
-              <img src="assets/img/0493-fig-5-source-large.gif" class="img-fluid" alt="">
-              <b>Short Trajectory Segmentation with 1D Unet Framework: Application to Secretory Vesicle Dynamics </b><br/>
-              <small>Mariia Dmitrieva, Joël Lefebvre, Kristofer Delas Penas, Helen Zenner, Jennifer Richens, Daniel St. Johnston, Jens Rittscher</small>
-              <small class="smaller">2020 IEEE 17th International Symposium on Biomedical Imaging (ISBI), Coralville, IA, USA</small>
-              <div class="portfolio-item-description"><small></small></div>
-              <div class="portfolio-links">
-                <a href="https://ieeexplore.ieee.org/document/9098426/" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+          <div class="col-lg-6 col-md-12 portfolio-item filter-research">
+            <div class="row">
+              <div class="col-sm-4">
+                <img src="assets/img/0493-fig-5-source-large.gif" class="img-fluid" alt="" data-bs-toggle="modal" data-bs-target="#img_modal" data-bs-title="Short Trajectory Segmentation with 1D Unet Framework: Application to Secretory Vesicle Dynamics">
+              </div>
+              <div class="col-sm-8 portfolio-wrap">
+                <b>Short Trajectory Segmentation with 1D Unet Framework: Application to Secretory Vesicle Dynamics </b><br/>
+                <small>Mariia Dmitrieva, Joël Lefebvre, Kristofer Delas Penas, Helen Zenner, Jennifer Richens, Daniel St. Johnston, Jens Rittscher</small>
+                <small class="smaller">2020 IEEE 17th International Symposium on Biomedical Imaging (ISBI), Coralville, IA, USA</small>
+                <div class="portfolio-item-description"><small>
+                  This paper explores quantification of vesicle dynamics in Drosophila epithelial cells and introduces a novel 1D U-Net based trajectory segmentation. Unlike existing mean squared displacement based methods, our proposed framework is not restricted under the requirement of long trajectories for effective segmentation. The proposed approach achieves 77.7% accuracy for the trajectory segmentation.
+                </small></div>
+                <div class="portfolio-links">
+                  <a href="https://ieeexplore.ieee.org/document/9098426/"><i class="bx bx-link"></i></a>
+                </div>
               </div>
             </div>
           </div>
           
-          <div class="col-lg-4 col-md-12 portfolio-item filter-research">
-            <div class="portfolio-wrap">
-              <img src="assets/img/1-s2.0-S0889540618308254-gr5_lrg.jpg" class="img-fluid" alt="">
-              <b>Benzalkonium Chloride (BAC) in an Orthodontic Adhesive: Its Effect on Rat Enamel Demineralization using Color-Based Image Analysis </b>
-              <small>Maria Lourdes Torres-Garcia, Lotus D. Llavore, Alice Bungay, Jesus D. Sarol, Jr, Riza Rae Pineda and Kristofer delas Penas</small>
-              <small class="smaller">American Journal of Orthodontics and Dentofacial Orthopedics. Jan 2019.</small>
-              <div class="portfolio-item-description"><small></small></div>
-              <div class="portfolio-links">
-                <a href="https://www.ajodo.org/article/S0889-5406(18)30825-4/pdf" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+          <div class="col-lg-6 col-md-12 portfolio-item filter-research">
+            <div class="row">
+              <div class="col-sm-4">
+                <img src="assets/img/1-s2.0-S0889540618308254-gr5_lrg.jpg" class="img-fluid" alt="" data-bs-toggle="modal" data-bs-target="#img_modal" data-bs-title="Benzalkonium Chloride (BAC) in an Orthodontic Adhesive: Its Effect on Rat Enamel Demineralization using Color-Based Image Analysis">
+              </div>
+              <div class="col-sm-8 portfolio-wrap">
+                <b>Benzalkonium Chloride (BAC) in an Orthodontic Adhesive: Its Effect on Rat Enamel Demineralization using Color-Based Image Analysis </b>
+                <small>Maria Lourdes Torres-Garcia, Lotus D. Llavore, Alice Bungay, Jesus D. Sarol, Jr, Riza Rae Pineda and Kristofer delas Penas</small>
+                <small class="smaller">American Journal of Orthodontics and Dentofacial Orthopedics. Jan 2019.</small>
+                <div class="portfolio-item-description"><small>
+                  The aim of this study was to determine the effect of an orthodontic bonding adhesive containing benzalkonium chloride (BAC) on enamel demineralization. 
+                  Using image analysis to quantify enamel demineralization, we showed that the non-BAC and BAC groups exhibited greater enamel demineralization compared with the control group. 
+                </small></div>
+                <div class="portfolio-links">
+                  <a href="https://www.ajodo.org/article/S0889-5406(18)30825-4/pdf"><i class="bx bx-link"></i></a>
+                </div>
               </div>
             </div>
           </div>
           
-          <div class="col-lg-4 col-md-12 portfolio-item filter-research">
-            <div class="portfolio-wrap">
-              <img src="assets/img/malaria.png" class="img-fluid" alt="">
-              <b>Analysis of Convolutional Neural Networks and Shape Features for Detection and Identification of Malaria Parasites on Thin Blood Smears </b>
-              <small>Delas Peñas K., Rivera P.T., Naval P.C.</small>
-              <small class="smaller">Intelligent Information and Database Systems, Lecture Notes in Computer Science, vol 10752. Springer. 2018.</small>
-              <div class="portfolio-item-description"><small></small></div>
-              <div class="portfolio-links">
-                <a href="https://doi.org/10.1007/978-3-319-75420-8_45" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+          <div class="col-lg-6 col-md-12 portfolio-item filter-research">
+            <div class="row">
+              <div class="col-sm-4">
+                <img src="assets/img/malaria.png" class="img-fluid" alt="" data-bs-toggle="modal" data-bs-target="#img_modal" data-bs-title="Analysis of Convolutional Neural Networks and Shape Features for Detection and Identification of Malaria Parasites on Thin Blood Smears">
+              </div>
+              <div class="col-sm-8 portfolio-wrap">
+                <b>Analysis of Convolutional Neural Networks and Shape Features for Detection and Identification of Malaria Parasites on Thin Blood Smears </b>
+                <small>Delas Peñas K., Rivera P.T., Naval P.C.</small>
+                <small class="smaller">Intelligent Information and Database Systems, Lecture Notes in Computer Science, vol 10752. Springer. 2018.</small>
+                <div class="portfolio-item-description"><small>
+                  In this research, models using convolutional neural networks, and a model using extracted shape features are implemented and compared. The CNN models, one trained from scratch and the other utilizing transfer learning, with accuracies of 92.4% and 93.60%, both outperform the shape feature model in malaria parasite recognition.
+                </small></div>
+                <div class="portfolio-links">
+                  <a href="https://doi.org/10.1007/978-3-319-75420-8_45"><i class="bx bx-link"></i></a>
+                </div>
               </div>
             </div>
           </div>
           
-          <div class="col-lg-4 col-md-12 portfolio-item filter-research">
-            <div class="portfolio-wrap">
-              <img src="assets/img/8010566-fig-8-source-large.gif" class="img-fluid" alt="">
-              <b>Malaria Parasite Detection and Species Identification on Thin Blood Smears Using a Convolutional Neural Network </b>
-              <small>Delas Peñas K., Rivera P.T., Naval P.C.</small>
-              <small class="smaller">2017 IEEE/ACM International Conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE), Philadelphia, PA, USA</small>
-              <div class="portfolio-item-description"><small></small></div>
-              <div class="portfolio-links">
-                <a href="https://ieeexplore.ieee.org/document/8010566/" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+          <div class="col-lg-6 col-md-12 portfolio-item filter-research">
+            <div class="row">
+              <div class="col-sm-4">
+                <img src="assets/img/8010566-fig-8-source-large.gif" class="img-fluid" alt="" data-bs-toggle="modal" data-bs-target="#img_modal" data-bs-title="Malaria Parasite Detection and Species Identification on Thin Blood Smears Using a Convolutional Neural Network">
+              </div>
+              <div class="col-sm-8 portfolio-wrap">
+                <b>Malaria Parasite Detection and Species Identification on Thin Blood Smears Using a Convolutional Neural Network </b>
+                <small>Delas Peñas K., Rivera P.T., Naval P.C.</small>
+                <small class="smaller">2017 IEEE/ACM International Conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE), Philadelphia, PA, USA</small>
+                <div class="portfolio-item-description"><small>
+                  This study proposes an intelligent system to detect malaria parasites in images of thin blood smears. We used Inceptionv2 CNN and demonstrated an accuracy of 92.4% and sensitivity of 95.2% for malaria parasite detection, and an accuracy of 87.9% for identifying the two species Plasmodium falciparum and Plasmodium vivax.
+                </small></div>
+                <div class="portfolio-links">
+                  <a href="https://ieeexplore.ieee.org/document/8010566/"><i class="bx bx-link"></i></a>
+                </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-12 portfolio-item filter-software">
-            <div class="portfolio-wrap">
-              <img src="assets/img/dcs.png" class="img-fluid" alt="">
-              <b>UP Department of Computer Science Website</b>
-              <div class="portfolio-item-description"><small></small></div>
-              <div class="portfolio-links">
-                <a href="dcs.upd.edu.ph" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+          <div class="col-lg-6 col-md-12 portfolio-item filter-software">
+            <div class="row">
+              <div class="col-sm-4">
+                <img src="assets/img/dcs.png" class="img-fluid" alt="" data-bs-toggle="modal" data-bs-target="#img_modal" data-bs-title="UP Department of Computer Science Website">
+              </div>
+              <div class="col-sm-8 portfolio-wrap">
+                <b>UP Department of Computer Science Website</b>
+                <div class="portfolio-item-description"><small>Revamped the official department website using bootstrap, SCSS, JS, and Django CMS.</small></div>
+                <div class="portfolio-links">
+                  <a href="dcs.upd.edu.ph"><i class="bx bx-link"></i></a>
+                </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-12 portfolio-item filter-software">
-            <div class="portfolio-wrap">
-              <img src="assets/img/110086.png" class="img-fluid" alt="">
-              <b>Cell Detection and Instance Segmentation in a Memory-Constrained Environment using YOLO, UNet, DeepLab, and Conditional Random Fields</b><br/>
-              <small><i>Kristofer delas Penas, Dominic Waithe</i></small><br/>
-              <div class="portfolio-item-description"><small>This project examined different deep learning techniques for cell detection and segmentation on resource-constrained environments such as the NVIDIA Jetson TX2.
-              </small></div>
-              <div class="portfolio-links">
-                <a href="https://github.com/kedelaspenas/onbi1" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+          <div class="col-lg-6 col-md-12 portfolio-item filter-software">
+            <div class="row">
+              <div class="col-sm-4">
+                <img src="assets/img/110086.png" class="img-fluid" alt="" data-bs-toggle="modal" data-bs-target="#img_modal" data-bs-title="Cell Detection and Instance Segmentation in a Memory-Constrained Environment using YOLO, UNet, DeepLab, and Conditional Random Fields">
+              </div>
+              <div class="col-sm-8 portfolio-wrap">
+                <b>Cell Detection and Instance Segmentation in a Memory-Constrained Environment using YOLO, UNet, DeepLab, and Conditional Random Fields</b><br/>
+                <small><i>Kristofer delas Penas, Dominic Waithe</i></small><br/>
+                <div class="portfolio-item-description"><small>This project examined different deep learning techniques for cell detection and segmentation on resource-constrained environments such as the NVIDIA Jetson TX2.
+                </small></div>
+                <div class="portfolio-links">
+                  <a href="https://github.com/kedelaspenas/onbi1"><i class="bx bx-link"></i></a>
+                </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-12 portfolio-item filter-software">
-            <div class="portfolio-wrap">
-              <img src="assets/img/UML.png" class="img-fluid" alt="">
-              <b>Focus Measure (C++)</b>
-              <div class="portfolio-item-description"><small>A C++ implementation of focus measure: a collection of metrics to determine the sharpest contrast in z-stacks and optical planes.</small></div>
-              <div class="portfolio-links">
-                <a href="https://github.com/kedelaspenas/focus-measure" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+          <div class="col-lg-6 col-md-12 portfolio-item filter-software">
+            <div class="row ">
+              <div class="col-sm-4">
+                <img src="assets/img/UML.png" class="img-fluid" alt="" data-bs-toggle="modal" data-bs-target="#img_modal" data-bs-title="Focus Measure">
+              </div>
+              <div class="col-sm-8 portfolio-wrap">
+                <b>Focus Measure (C++)</b>
+                <div class="portfolio-item-description"><small>A C++ implementation of focus measure: a collection of metrics to determine the sharpest contrast in z-stacks and optical planes.</small></div>
+                <div class="portfolio-links">
+                  <a href="https://github.com/kedelaspenas/focus-measure"><i class="bx bx-link"></i></a>
+                </div>
               </div>
             </div>
           </div>
 
         </div>
 
+        <div class="modal fade" id="img_modal" tabindex="-1" aria-labelledby="img_modal" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="img_modal_title"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img id="img_modal_img">
+              </div>
+          </div>
+        </div>
+
       </div>
+  </div>
+</div>
     </section><!-- End Portfolio Section -->
 
     <!-- ======= Contact Section ======= -->

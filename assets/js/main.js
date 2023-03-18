@@ -259,4 +259,19 @@
    */
   new PureCounter();
 
+  var exampleModal = document.getElementById('img_modal')
+  exampleModal.addEventListener('show.bs.modal', function (event) {
+  // Button that triggered the modal
+  var button = event.relatedTarget
+  // Extract info from data-bs-* attributes
+  var title = button.getAttribute('data-bs-title')
+  //
+  // Update the modal's content.
+  var modalTitle = exampleModal.querySelector('.modal-title')
+  var modalBodyInput = exampleModal.querySelector('.modal-body img')
+
+  modalTitle.textContent = title
+  modalBodyInput.src = button.src
+})
+
 })()

@@ -36,8 +36,23 @@ h6 {
 small.smaller {
   font-size: 0.8em;
   display: block;
+  color: gray;
 }
+.modal-dialog {
+  width: -webkit-calc(80% - 300px);
+  width:    -moz-calc(80% - 300px);
+  width:         calc(80% - 300px);
+  margin-left:  calc(10% + 300px);
+  margin-left:  -webkit-calc(10% + 300px);
+  margin-left:  -moz-calc(10% + 300px);
+  margin-left:  calc(10% + 300px);
+  max-width: none;
+  z-index: 0;
 
+}
+.modal-body img {
+  width: 100%;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -691,6 +706,7 @@ h4 {
 
 .portfolio-item-description small {
   margin-top: 5px;
+  font-size: 0.8em;
 }
 
 .portfolio-item-description::before {
